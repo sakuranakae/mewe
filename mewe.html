@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/base.css">
+
+    <title>meタイプ・weタイプ診断テスト</title>
+</head>
+
+<body>
+
+<div>
+    <h1 class="title2">
+        meタイプ・weタイプ診断テスト
+    </h1>
+    <p>
+        あなたはmeタイプかweタイプか、ちゃちゃっと診断します。
+        <a href="../task_test/index.html">トップへ戻る</a>
+    </p>
+
+</div>
+
+    <form name="quiz">
+        <p>Q.1　人と並んで立ったとき、相手を自分の
+        <br><input type=radio name="a" checked>左手側に置く
+        　<input type=radio name="a">右手側に置く
+        <p>Q.2　髪の分け方
+        <br><input type=radio name="b" checked>左の額を出す
+        　<input type=radio name="b">右の額を出す
+        <p>Q.3　カバンを持つときは
+        <br><input type=radio name="c" checked>右手側に持つ
+        　<input type=radio name="c">左手側に持つ
+        <p>Q.4　両手を組むと
+        <br><input type=radio name="d" checked>右の親指が上になる
+        　<input type=radio name="d">左の親指が上になる
+        <p>Q.5　教室・映画館などでの座席
+        <br><input type=radio name="e" checked>本人から見て右寄りの席に座る
+        　<input type=radio name="e">本人から見て左寄りの席に座る
+        
+        <p><input type=button value=" 診断 " onclick="sindan()">
+        </form>
+
+        <script src="js/mewe.js"></script>
+        </body>

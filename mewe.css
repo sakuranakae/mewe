@@ -1,0 +1,23 @@
+.title2 {
+    margin:  0;                 /* デフォルトCSS打ち消し */
+    font-size:  24px;           /* 文字サイズ指定 */
+    border-bottom: solid 3px;   /* 線指定 */
+    padding-bottom:  5px;       /* 余白指定 */
+    margin-bottom: 15px;        /* 周りの余白指定 */
+    position:  relative;        /* 位置調整 */
+    font-weight:  normal;       /* 文字の太さ調整 */
+}
+p {
+    margin:  0;                 /* デフォルトCSS打ち消し */
+    line-height: 2;             /* 行間調整 */
+}
+.title2:before {
+    content:  '';                   /* 空白の要素を作る */
+    width: 50px;                    /* 幅指定 */
+    height: 3px;                    /* 高さ指定 */
+    background-color: #42a6ff;      /* 背景色指定 */
+    display:  block;                /* ブロック要素にする */
+    position:  absolute;            /* 位置調整 */
+    left:  0;                       /* 位置調整 */
+    bottom: -3px;                   /* 位置調整 */
+}
